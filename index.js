@@ -9,7 +9,7 @@ app.use(express.json());
 
 
 //Routes
-app.use('/api/', require('./routes/news'))
+app.use('/', require('./routes/news'))
 
 
 

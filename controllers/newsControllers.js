@@ -6,7 +6,7 @@ const key = process.env.KEY
 
 
 const welcome = (req, res = response) => {
-    res.json('Welcome to my Climate Change News API')
+    res.json('Welcome to my News API')
 }
 
 const getNews = async (req, res= response) =>{
